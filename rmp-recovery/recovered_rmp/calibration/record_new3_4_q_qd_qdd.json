@@ -1,0 +1,55 @@
+{
+  "name": "record_new3_4_q_qd_qdd",
+  "purpose": "Balanced q/qd/observed-qdd fit for the no-actuator-model recovered-RMP MJX path",
+  "acceleration_measurement": "forward difference of joint velocity using real jointSampleStampS and sim sourceTimeS; contiguous sourceSeq only",
+  "rmp_jnt_kp_scale_per_joint": [
+    0.3309240341, 0.42426157, 0.3956700265, 0.4611538947,
+    0.5072692633, 0.3956700265, 0.5072692633
+  ],
+  "rmp_jnt_kd_scale_per_joint": [
+    0.4099282026, 0.3360067308, 0.4099282026, 0.3696074188,
+    0.3696074188, 0.3696074188, 0.3696074188
+  ],
+  "rmp_effective_jnt_kp_per_joint": [
+    132.369614, 169.704628, 158.268011, 184.461558,
+    202.907705, 158.268011, 202.907705
+  ],
+  "rmp_effective_jnt_kd_per_joint": [
+    16.397128, 13.440269, 16.397128, 14.784297,
+    14.784297, 14.784297, 14.784297
+  ],
+  "controller_kp_scale_per_joint": [
+    0.0098036351, 0.0072898827, 0.0128687927, 0.0110127022,
+    0.0047119921, 0.0110367732, 0.0053950241
+  ],
+  "controller_kd_scale_per_joint": [
+    0.0544903129, 0.0666923523, 0.0218392033, 0.0384523422,
+    0.0054042372, 0.0095267016, 0.0052268677
+  ],
+  "controller_effective_kp": [
+    784.290805, 583.19062, 868.643511, 550.635112,
+    153.139743, 413.878995, 134.875602
+  ],
+  "controller_effective_kd": [
+    27.245156, 18.006935, 9.500053, 12.977665,
+    1.013294, 2.024424, 0.686026
+  ],
+  "dof_damping_scale_per_joint": [1.92, 1.92, 1.92, 1.92, 1.22, 1.92, 1.10],
+  "dof_armature_scale_per_joint": [1.92, 1.92, 1.92, 1.92, 1.92, 1.92, 1.92],
+  "effective_dof_damping": [3.84, 3.84, 3.84, 3.84, 2.44, 3.84, 2.20],
+  "effective_dof_armature": [0.0384, 0.0384, 0.0384, 0.0384, 0.0384, 0.0384, 0.0384],
+  "rmp_input_delay_control_steps": 0,
+  "acceleration_feedforward_s2": 0.0,
+  "actuator_model_enabled": false,
+  "objective": {
+    "weights": {"q": 0.4, "qd": 0.3, "qdd": 0.3},
+    "tolerances": {"q_rad": 0.02, "qd_rad_s": 0.25, "qdd_rad_s2": 5.0}
+  },
+  "held_out_recording": "record_new4/probe_recording_20260811_210018",
+  "held_out_mjx_rms": {
+    "q_rad": 0.0186062392,
+    "q_deg": 1.06605898,
+    "qd_rad_s": 0.2025667256,
+    "qdd_rad_s2": 5.0631230602
+  }
+}

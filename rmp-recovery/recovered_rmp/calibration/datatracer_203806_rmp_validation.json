@@ -1,0 +1,59 @@
+{
+  "source_datatracer": "movax/controller/datatracer/2026_08_11_20_38_06_0x8611.dat",
+  "source_recording": "record_new4/probe_recording_20260811_203833",
+  "evaluation_interval_s": [1.41, 5.0],
+  "samples": 3590,
+  "rmp_period_s": 0.001,
+  "recording_to_tracer_offset_s": -3.0209988619056563,
+  "command_receipt_alignment_ms": 3.0,
+  "rmp_parameters": {
+    "jnt_kp": 400.0,
+    "jnt_kd": 40.0,
+    "joint_velocity_feedforward": 0.5,
+    "joint_acceleration_feedforward": 0.0,
+    "acceleration_weight": 0.001,
+    "target_filter_length": 10,
+    "output_filter_length": 35,
+    "jerk_limit_enabled": false,
+    "safety_bounds_enabled": true
+  },
+  "metrics": {
+    "position_rms_rad": 0.0006698816837106712,
+    "position_rms_deg": 0.038381393249738965,
+    "velocity_rms_rad_s": 0.01081723453882271,
+    "acceleration_rms_rad_s2": 0.3034446309712291,
+    "position_rms_per_joint_rad": [
+      0.0003929905602567495,
+      0.0005642756718038589,
+      0.0005027925760195457,
+      0.0009402714608917708,
+      0.000845554950785263,
+      0.0005899292269292022,
+      0.0006844349601722753
+    ],
+    "velocity_rms_per_joint_rad_s": [
+      0.006102426344680111,
+      0.007111831432989618,
+      0.005250247259797706,
+      0.016494156834729205,
+      0.013484622913117602,
+      0.008385527561177844,
+      0.013397602557393664
+    ],
+    "acceleration_rms_per_joint_rad_s2": [
+      0.16270175201835085,
+      0.17679987928166882,
+      0.1327132358116129,
+      0.5325295825781873,
+      0.3201165106293277,
+      0.2192979196922089,
+      0.36749657657410945
+    ]
+  },
+  "thresholds": {
+    "position_rms_deg": 0.1,
+    "velocity_rms_rad_s": 0.05,
+    "acceleration_rms_rad_s2": 1.0
+  },
+  "all_thresholds_pass": true
+}

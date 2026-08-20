@@ -1,0 +1,90 @@
+{
+  "definition": "per-joint causal ARX fitted on the first stable interval and recursively rolled out without actual-feedback teacher forcing",
+  "train_interval_s": [
+    1.41,
+    3.2
+  ],
+  "heldout_interval_s": [
+    3.2,
+    5.0
+  ],
+  "sample_period_s": 0.0010000000002037268,
+  "per_joint": [
+    {
+      "joint": 0,
+      "ar_order": 20,
+      "input_lag_steps": 12,
+      "input_order": 8,
+      "position_rms_rad": 0.0022420061635170393,
+      "position_rms_deg": 0.12845749081184388,
+      "velocity_rms_rad_s": 0.01884367272431209,
+      "acceleration_rms_rad_s2": 7.034196685245855
+    },
+    {
+      "joint": 1,
+      "ar_order": 20,
+      "input_lag_steps": 12,
+      "input_order": 0,
+      "position_rms_rad": 0.0019101339084398512,
+      "position_rms_deg": 0.1094426112584319,
+      "velocity_rms_rad_s": 0.024316035555535714,
+      "acceleration_rms_rad_s2": 7.909595436237944
+    },
+    {
+      "joint": 2,
+      "ar_order": 12,
+      "input_lag_steps": 12,
+      "input_order": 0,
+      "position_rms_rad": 0.010229848507277156,
+      "position_rms_deg": 0.5861271445251862,
+      "velocity_rms_rad_s": 0.28227643068838004,
+      "acceleration_rms_rad_s2": 10.624455164884226
+    },
+    {
+      "joint": 3,
+      "ar_order": 20,
+      "input_lag_steps": 4,
+      "input_order": 0,
+      "position_rms_rad": 0.0015282744070930468,
+      "position_rms_deg": 0.08756367346428982,
+      "velocity_rms_rad_s": 0.020924926330682804,
+      "acceleration_rms_rad_s2": 7.026999502472677
+    },
+    {
+      "joint": 4,
+      "ar_order": 20,
+      "input_lag_steps": 0,
+      "input_order": 4,
+      "position_rms_rad": 0.0006860782945186166,
+      "position_rms_deg": 0.039309390691450216,
+      "velocity_rms_rad_s": 0.012924193056885169,
+      "acceleration_rms_rad_s2": 11.752537396276283
+    },
+    {
+      "joint": 5,
+      "ar_order": 20,
+      "input_lag_steps": 12,
+      "input_order": 0,
+      "position_rms_rad": 0.0006981879932175309,
+      "position_rms_deg": 0.040003225318073064,
+      "velocity_rms_rad_s": 0.01777302230236709,
+      "acceleration_rms_rad_s2": 10.670163568121668
+    },
+    {
+      "joint": 6,
+      "ar_order": 20,
+      "input_lag_steps": 12,
+      "input_order": 8,
+      "position_rms_rad": 0.0002556670606227518,
+      "position_rms_deg": 0.014648643534199037,
+      "velocity_rms_rad_s": 0.018787787676089896,
+      "acceleration_rms_rad_s2": 15.529986332809555
+    }
+  ],
+  "overall": {
+    "position_rms_rad": 0.004082788995573045,
+    "velocity_rms_rad_s": 0.10816659472755724,
+    "acceleration_rms_rad_s2": 10.470737413304766,
+    "position_rms_deg": 0.23392657808879205
+  }
+}
